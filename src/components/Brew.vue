@@ -1,12 +1,12 @@
 <template>
   <div class="hello">
-    <h1>Hello {{ nbr }}</h1>
+    <h1>Welcome to my brew app!!!</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Brew',
   props: {
     nbr: Number
   }
