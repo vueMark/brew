@@ -1,7 +1,7 @@
 <template>
   <div class="card brew-list">
 	<ul class="list-group list-group-flush">
-	<li class="list-group-item" v-for="(brew,index) in brews" :key="index">{{index}} - {{brew.name}} - {{brew.state}}</li>
+	<li class="list-group-item" v-for="(brew,index) in brews" :key="index">{{brew.name}}, {{brew.state}}</li>
 	</ul>
 </div>
 </template>
@@ -24,7 +24,7 @@ export default {
 <style lang="scss" scoped>
 .brew-list{
     overflow-y: scroll;
-    height: 95vh;
+    height: 80vh;
     li {
       &:hover {
         background-color: darkgray;
