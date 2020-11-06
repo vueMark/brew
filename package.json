@@ -11,7 +11,9 @@
     "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "leaflet": "^1.7.1",
+    "vue": "^2.6.11",
+    "vue2-leaflet": "^2.6.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
