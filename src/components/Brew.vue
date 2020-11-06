@@ -14,9 +14,9 @@
       </div>
       <!-- /.col-6 -->
       <div class="col-6">
-        <h2 class="text-center">
+
           <BrewMap/>
-        </h2>
+
       </div>
       <!-- /.col-6 -->
     </div>
